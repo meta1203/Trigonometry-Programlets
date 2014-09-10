@@ -4,6 +4,7 @@ Trigonometry Python Programlets
 __Compatible with Python 3.4__
 
 __NB: Radian inputs assume pi is not part of the number__
+
 Example:
 
 Input: 1/4
