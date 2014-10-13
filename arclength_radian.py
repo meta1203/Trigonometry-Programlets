@@ -11,5 +11,5 @@ vals['lenp'] = vals['rap']*vals['radius']
 vals['rap'] = vals['radians']*math.pi
 
 print('')
-print(prettyFunction("{len!}{pi} = {radians!}{pi} x {radius!}", vals))
-print(prettyFunction("{len!}{pi} {approx} {lenp!}", vals))
+print(prettyFunction("{len}{pi} = {radians}{pi} x {radius}", vals))
+print(prettyFunction("{len}{pi} {approx} {lenp}", vals))
