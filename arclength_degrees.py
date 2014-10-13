@@ -15,6 +15,6 @@ vals['lenp'] = vals['rap']*vals['r']
 
 # Print out values
 print('')
-print(prettyFunction("Arc Length = ({d!}{degree} x {pi}/180) x {r!}", vals))
-print(prettyFunction("{len!}{pi} = {ra!}{pi} x {r!}", vals))
-print(prettyFunction("{len!}{pi} {approx} {lenp!}", vals))
+print(prettyFunction("Arc Length = ({d}{degree} x {pi}/180) x {r}", vals))
+print(prettyFunction("{len}{pi} = {ra}{pi} x {r}", vals))
+print(prettyFunction("{len}{pi} {approx} {lenp}", vals))

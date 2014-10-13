@@ -9,4 +9,4 @@ c = (vals['k']*4*a+b**2)/(4*a)
 
 calcs = {'x2': (-b + math.sqrt(b**2 - 4*a*c))/(2*a), 'x1': (-b - math.sqrt(b**2 - 4*a*c))/(2*a)}
 
-print(prettyFunction("({x1!},0),({x2!},0)", calcs))
+print(prettyFunction("({x1},0),({x2},0)", calcs))
