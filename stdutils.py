@@ -16,11 +16,11 @@ def prettyFunction(stringBase, values):
   for k,v in values.items():
     if 'float' in k:
       sValues[k] = str(float(v))
-    elif 'add' in k and v > 0 and float(v % 1) is 0:
+    elif 'add' in k and v > 0 and v % 1 == 0:
       sValues[k] = "+" + str(v)
     elif 'add' in k and v > 0:
       sValues[k] = '+ (' + str(v) + ')'
-    elif float(v % 1) is 0:
+    elif (v % 1) == 0:
       sValues[k] = str(v)
     else:
       sValues[k] = "(" + str(v) + ")"
