@@ -1,7 +1,7 @@
 Trigonometry Python Programlets
 ===============================
 
-__Compatible with Python 3.4__
+__Written with Python 3.4.2__
 
 __NB: Radian inputs assume pi is not part of the number__
 
