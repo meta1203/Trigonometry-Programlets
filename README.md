@@ -3,6 +3,18 @@ Trigonometry Python Programlets
 
 __Written with Python 3.4.2__
 
+__NB: Python expressions are valid entries__
+
+Examples:
+
+Input: 2**3
+
+Assumed value: 8
+
+Input: (9-4)/3
+
+Assumed value: 5/3
+
 __NB: Radian inputs assume pi is not part of the number__
 
 Example:
@@ -10,6 +22,18 @@ Example:
 Input: 1/4
 
 Assumed value: pi/4
+
+__NB: PI, SQRT, and D2R are constants that can be used during value entry__
+
+Examples:
+
+Input: 30*D2R
+
+Assumed value: 30*(π/180)
+
+Input: 3*SQRT(2)
+
+Assumed value: 3√2
 
 __Instructions:__
 
